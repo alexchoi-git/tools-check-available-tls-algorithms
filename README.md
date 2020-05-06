@@ -7,6 +7,17 @@ The guide for checking available tls versions and algorithms for a domain
 ```
 brew install nmap
 ```
+
+### CentOS
+```
+yum install nmap
+```
+
+### Debian and Ubuntu
+```
+apt-get install nmap
+```
+
 ### Download nmap script file
 https://svn.nmap.org/nmap/scripts/ssl-enum-ciphers.nse
 
