@@ -26,6 +26,8 @@ https://svn.nmap.org/nmap/scripts/ssl-enum-ciphers.nse
 nmap --script ssl-enum-ciphers -p 443 www.example.com
 ```
 
+## Rating guide
+https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide
 ## Sample output
 ```
 alexs-MBP:~ alexchoi$ nmap --script ssl-enum-ciphers -p 443 google.com
